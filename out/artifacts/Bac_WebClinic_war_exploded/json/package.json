@@ -1,0 +1,19 @@
+{
+  "name": "ri",
+  "version": "1.0.0",
+  "main": "in.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "npm install && node setupDatabase.js && node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.7.5",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
